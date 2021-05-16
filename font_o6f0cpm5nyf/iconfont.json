@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "925451",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "7335460",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "eb1f",
+      "unicode_decimal": 60191
+    },
+    {
+      "icon_id": "18405853",
+      "name": "错",
+      "font_class": "cuo",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    }
+  ]
+}

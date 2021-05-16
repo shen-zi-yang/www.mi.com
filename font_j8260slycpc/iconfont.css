@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1620607776617') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-15tianwuliyoutuihuo:before {
+  content: "\e606";
+}
+
+.icon-xinxi:before {
+  content: "\e64b";
+}
+
+.icon-buoumaotubiao46:before {
+  content: "\e629";
+}
+
+.icon-iconfront-:before {
+  content: "\e61a";
+}
+
+.icon-libao:before {
+  content: "\e605";
+}
+
+.icon-gouwuche:before {
+  content: "\e655";
+}
+
+.icon-7tiantuihuanhuo:before {
+  content: "\e61f";
+}
+
