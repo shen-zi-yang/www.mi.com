@@ -1,0 +1,220 @@
+@charset 'utf-8';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+p,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 140px;
+  background-color: #333;
+}
+.header .header-1 {
+  width: 1226px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 39px;
+}
+.header .header-1 .header-left li {
+  float: left;
+  position: relative;
+}
+.header .header-1 .header-left li a {
+  display: block;
+  height: 40px;
+  cursor: pointer;
+  color: #babbb5;
+}
+.header .header-1 .header-left li a span {
+  margin: 0 5px;
+  color: #3e3f3a;
+}
+.header .header-1 .header-right li {
+  float: right;
+  text-align: center;
+  padding-left: 5px;
+}
+.header .header-1 .header-right li a {
+  cursor: pointer;
+  color: #b0b0b0;
+}
+.header .header-1 .header-right li a span {
+  margin: 0 5px;
+  color: #3e3f3a;
+}
+.header .header-1 .header-right .che {
+  width: 110px;
+  height: 40px;
+  background-color: #444;
+  position: relative;
+  cursor: pointer;
+}
+.header .header-1 .header-right .che span {
+  color: #b0b0b0;
+  padding-right: 5px;
+  font-size: 19px;
+}
+.header .header-1 .header-right .che .che-pro {
+  width: 316px;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  padding-top: 20px;
+  background-color: #fff;
+  display: none;
+  z-index: 10;
+  box-shadow: 1px 1px 1px 1px #b0b0b0;
+}
+.header .header-1 .header-right .che .che-pro .che-2 {
+  margin: 0 20px 20px;
+  padding: 20px 0;
+  width: 276px;
+}
+.header .header-1 li:hover a {
+  color: #fff;
+}
+.header .header-1 .che:hover {
+  background-color: #fff;
+}
+.header .header-1 .che:hover span {
+  color: #ff6700;
+}
+.header .header-1 .che:hover a {
+  color: #ff6700;
+}
+.header .header-1 .che:hover .che-pro {
+  display: block;
+}
+.header .header-footer {
+  background-color: #fff;
+}
+.header .header-footer .header-2 {
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+  color: #333;
+  position: relative;
+}
+.header .header-footer .header-2 .logo {
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin-top: 22px;
+  margin-right: 180px;
+}
+.header .header-footer .header-2 .logo img {
+  width: 100%;
+  height: 100%;
+}
+.header .header-footer .header-2 .header-nav {
+  line-height: 100px;
+  font-size: 16px;
+  height: 100px;
+  float: left;
+}
+.header .header-footer .header-2 .header-nav li {
+  float: left;
+  padding: 0 10px;
+  transition: all 1s;
+}
+.header .header-footer .header-2 .header-nav li span {
+  cursor: pointer;
+}
+.header .header-footer .header-2 .header-nav li .header-dd {
+  width: 100%;
+  transition: all 1s;
+  background-color: #fff;
+  position: absolute;
+  bottom: -230px;
+  left: 0px;
+  display: none;
+  z-index: 10;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d {
+  width: 1226px;
+  margin: 0 auto;
+  box-shadow: 2px #3e3f3a;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d li {
+  float: left;
+  width: 175px;
+  padding: 35px 12px 0;
+  text-align: center;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d li .li-img {
+  width: 160px;
+  height: 110px;
+  margin: 0 auto 16px;
+  text-align: center;
+  border-right: 1px solid #3e3f3a;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d li .li-img img {
+  width: 160px;
+  height: 110px;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d li .title {
+  line-height: 20px;
+  color: #333;
+  font-size: 12px;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d li .p1 {
+  line-height: 20px;
+  color: #ff6700;
+  font-size: 12px;
+}
+.header .header-footer .header-2 .header-nav li .header-dd .header-d .li-:nth-last-child(1) div {
+  border: none;
+}
+.header .header-footer .header-2 .header-nav li > span:hover {
+  color: coral;
+}
+.header .header-footer .header-2 .header-nav li:hover .header-dd {
+  display: block;
+  height: 230px;
+}
+.header .header-footer .header-2 .submit {
+  width: 50px;
+  height: 48px;
+  border: 1px solid #dfdfdf;
+  float: right;
+  margin-top: 25px;
+  position: relative;
+}
+.header .header-footer .header-2 .submit span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 48px;
+  line-height: 48px;
+}
+.header .header-footer .header-2 .submit:hover {
+  cursor: pointer;
+  background-color: coral;
+  border: 1px solid coral;
+  color: #fff;
+}
+.header .header-footer .header-2 .search {
+  width: 243px;
+  height: 48px;
+  margin-top: 25px;
+  border: 1px solid #dfdfdf;
+  float: right;
+  padding-left: 5px;
+}
