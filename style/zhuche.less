@@ -1,0 +1,338 @@
+@charset 'utf-8';
+h1,h2,h3,h4,h5,h6,li,ul,p,html,body{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    .main-left{
+        width: 375px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background: url(../images/banner.a0e6fbf0.jpg) no-repeat 0;
+        background-size: cover;
+        background-position: 50%;
+    }
+    .bao{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+        .main-right{
+        width: auto;
+        // height: 100%;
+        min-height: 100vh;
+        margin-left: 375px;
+        background-color: #f9f9fa;
+        position: relative;
+        .header{
+            width: auto;
+            height: 80px;
+            padding: 20px;
+            .left{
+                width: 150px;
+                height: 40px;
+                float: left;
+                font-size: 26px;
+                font-weight: 400;
+                color: #333;
+                line-height: 40px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+                p{
+                    float: right;
+                    font-weight: 500;
+                }
+            }
+            .right{
+                width: 355px;
+                height: 40px;
+                float: right;
+                a{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    display: inline-block;
+                    height: 40px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #838383;
+                    line-height: 40px;
+                }
+                span{
+                    color: #ddd;
+                }
+                .yuyan{
+                    float: right;
+                    position: relative;
+                    .svg{
+                        width: 10px;
+                        height: 10px;
+                        border-top: 5px solid #b0b0b0;
+                        border-right: 5px solid #fff;
+                        border-left: 5px solid #fff; 
+                        float: right;
+                        margin-top: 20px;
+                        margin-left: 5px;
+                        // transition: all .5s;
+                    }
+                    .choise{
+                        display: none;
+                        position: absolute;
+                        top: 40px;
+                        right: 15px;
+                        li{
+                            font-size: 14px;
+                            text-align: center;
+                            background-color: #fff;
+                            color: black;
+                            &:hover{
+                                background-color: #f3d9d3;
+                                
+                            }
+                        }
+                    }
+                   
+                    &:hover .choise{
+                        display: block;
+                    }
+                    &:hover .a4{
+                        color: #ff6700;
+                    }
+                    &:hover .svg{
+                        border-top: 5px solid #ff6700;
+                        transform: rotateZ(180deg);
+                        transform-origin: 5px 2px;
+                    }
+                } 
+                
+            }   
+        }
+        .container{
+            width: auto;
+            height: 700px;
+            padding-top: 20px;
+            .card{
+                width: 450px;
+                height: 600px;
+                margin: 0 auto 80px;
+                padding: 40px 45px;
+                background-color: #fff;
+                .card-top{
+                    width: 128px;
+                    height: 41px;
+                    position: relative;
+                    a{
+                        color: #bbb;
+                        text-decoration: none;
+                        background-color: rgba(0,0,0,0);
+                        outline: none;
+                        cursor: pointer;
+                        font-weight: 500;
+                        line-height: 41px;
+                        font-size: 22px;
+                    }
+                    .text{
+                        width: 44px;
+                        height: 41px;
+                        margin-right: 20px;
+                        float: left;
+                    }
+                    .xian{
+                        position: absolute;
+                        bottom: 1px;
+                        left: 64px;
+                        z-index: 1;
+                        background-color: #ff5c00;
+                        transform-origin: 0 0;
+                        width: 44px;
+                        height: 4px;
+                        border-radius: 2px;
+                    }
+                }
+                .card-btn{
+                    width: 360px;
+                    height: 375px;
+                    .btn-box{
+                        height: 60px;
+                        position: relative;
+                        background-color: #f9f9f9;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                        .result1{
+                            color: red;
+                            line-height: 47px;
+                        }
+                        .p1{
+                            line-height: 30px;
+                            margin-left: 20px;
+                            color: #757575;
+                            font-size: 14px;
+                        }
+                        .p2{
+                            line-height: 30px;
+                            margin-left: 20px;
+                            color: black;
+                            font-size: 22px;
+                        }
+                        .sp1{
+                            position: absolute;
+                            top: 25%;
+                            right: 20px;
+                            font-size: 30px;
+                        }
+                        .left{
+                            width: 140px;
+                            float: left;
+                            position: relative;
+                            
+                        }
+                        .sp2{
+                            position: absolute;
+                            top: 25%;
+                            right: 0;
+                            font-size: 30px;
+                        }
+                        .numb{
+                            float: right;
+                            width: 210px;
+                            height: 25px;
+                            margin-top: 20px;
+                            border: none;
+                            background-color: #f9f9f9;
+                        }
+                        .yan{
+                            width: 250px;
+                            height: 60px;
+                            float: left;
+                            .result2{
+                                color: red;
+                                margin-left: 10px;
+                                margin-top: 17px;
+                            }
+
+                            .ma{
+                                
+                                line-height: 20px;
+                                margin-top: 20px;
+                                margin-left: 10px;
+                                border: none;
+                                background-color: #f9f9f9;
+                            }
+                        }
+                        .huoqu{
+                            width: 100px;
+                            text-align: center;
+                            float: right;
+                            margin-top: 20px;
+                            button{
+                                border: none;
+                                color: #ff6700;
+                                background-color: #f9f9f9;
+                            }
+                        }
+                    }
+                    .btn-submit{
+                        color: #fff;
+                        width: 100%;
+                        height: 60px;
+                        margin: 20px 0 10px;
+                        padding: 0 20px;
+                        font-size: 18px;
+                        background-color: #ff5c00;
+                        border: none;
+                        border-radius: 5px;
+                        opacity: .4;
+                        transition: all .5s;
+                        &:hover{
+                            background-color: #ff7e29;
+                            color: #fff;
+                        }
+                    }
+
+                
+                    .card-inline{
+                        width: 356px;
+                    height: 35px;
+
+                    .left{
+                        width: 85px;
+                        height: 25px;
+                        float: left;
+                            a{
+                                color: #ff5c00;
+                            }
+                        }
+                    .right{
+                        width: 85px;
+                        height: 25px;
+                        float: right;
+                            a{
+                                color: #ff5c00;
+                            }
+                        }
+                    }
+                }
+                .card-footer{
+                    width: 360px;
+                    height: 96px;
+                    .up{
+                        width: 360px;
+                        height: 40px;
+                        text-align: center;
+                        line-height: 40px;
+                        font-size: 17px;
+                        color: #aaa;
+                    }
+                    .down{
+                            width: 360px;
+                            height: 50px;
+                            ul{
+                                display: flex;
+                                justify-content: center;
+                                 li{
+                                    width: 46px;
+                                    height: 46px;
+                                    margin: 0 12px;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                           
+                    }
+                }
+            }
+
+        }
+        .foot{
+            font-size: 12px;
+            text-align: center;
+            color: #999;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 20px;
+            a{
+                color: #999;
+            }
+        }
+    }
+    }
+    
+}

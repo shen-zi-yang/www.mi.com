@@ -1,0 +1,364 @@
+@charset 'utf-8';
+h1,h2,h3,h4,h5,h6,li,ul,p,html,body{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    .header{
+        height: 100px;
+        font-size: 12px;
+        border-bottom: 2px solid #ff6700;
+        background-color: #fff;
+        color: #b0b0b0;
+        position: relative;
+        z-index: 20;
+        .header-box{
+            width: 1226px;
+            margin: 0 auto;
+            padding-top: 26px;
+            .left-img{
+                width:93px;
+                height: 48px;
+                float: left;
+                img{
+                    width: 48px;
+                    height: 48px;
+                } 
+            }
+            
+            .left-text{
+                float: left;
+                line-height: 20px;
+               
+                h2{
+                    width: 140px;
+                    height: 48px;
+                    line-height: 48px;
+                    font-size: 28px;
+                    float: left;
+                    font-weight: 400;
+                    color: black;
+                }
+                p{
+                    float: left;
+                    margin-top: 20px;
+                    margin-left: 15px;
+                    color: #757575;  
+                }
+
+            }
+            .right{
+                float: right;
+                .a1{
+                    width: 110px;
+                    height: 40px;
+                    float: left;
+                    text-align: center;
+                    position: relative;
+                    &:hover a{
+                        color: #ff6700;
+                    }
+                    a{
+                        color: #757575;
+                        display: block;
+                        line-height: 40px;
+                    }
+                    span{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    .nav{
+                        position: absolute;
+                        top: 40px;
+                        left: 0;
+                        display: none;
+                        li{
+                            width: 110px;
+                            line-height: 40px;
+                            font-size: 12px;
+                            background-color: #fff;
+                            box-shadow: 5px 5px 5px #f9f9f9;
+                            a{
+                                color: #333;
+                            }
+                            &:hover{
+                                background-color: #b0b0b0;
+                            }
+                            &:hover a{
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                    &:hover .nav{
+                        display: block;
+                    }
+                }
+                .a2{
+                    width: 70px;
+                    height: 40px;
+                    float: right;
+                    text-align: center;
+                    line-height: 40px;
+                    span{
+                        margin: 0 7px;
+                    }
+                    a{
+                        color: #757575;
+                    }
+                    &:hover a{
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+    }
+    .page-main{
+        background-color: #f5f5f5;
+        padding: 40px 0;
+        .page-heart{
+            width: 1226px;
+            margin: 0 auto;
+            .page-top{
+                .page-goods{
+                        .list-head{
+                            height: 70px;
+                            padding-right: 26px;
+                            line-height: 70px;
+                            display: flex;
+                            font-size: 14px;
+                            background-color: #fff;
+                            border-bottom: 1px solid #e0e0e0;
+                            .list-1{
+                                width: 110px;
+                                text-align: center;
+                                span{
+                                    display: inline-block;
+                                    width:18px;
+                                    height: 18px;
+                                    line-height: 18px;
+                                    margin-left: 24px;
+                                    margin-right: 20px;
+                                    font-size: 16px;
+                                    text-align: center;
+                                    color: #fff;
+                                    background-color: #ff6700;
+                                }
+                            }
+                            .list-2{
+                                width: 120px;
+                                img{
+                                    width: 80px;
+                                    height: 80px;
+                                }
+                            }
+                            .list-3{
+                                width: 380px;
+
+                            }
+                            .list-4{
+                                width: 140px;
+                                text-align: center;
+                            }
+                            .list-5{
+                                width: 150px;
+                                text-align: center;
+                                line-height: 30px;
+                                padding: 20px 0 30px;
+                                
+                            }
+                            .list-6{
+                                width: 120px;
+                                text-align: right;
+                                
+                            }
+                            .list-7{
+                                width: 80px;
+                                margin-left: 100px;
+                                position: relative;
+                                text-align: center;
+                               
+                            }
+                        }
+                        .item-box{
+                            padding: 15px 26px 15px 0;
+                            background-color: #fff;
+                            border-bottom: 1px solid #b0b0b0;
+                            .page-product{
+                                padding-right: 26px;                      
+                                display: flex;
+                                flex-wrap: wrap;
+                                font-size: 14px;
+                                .list-1{
+                                    width: 110px;
+                                    line-height: 70px;
+                                    span{
+                                        display: inline-block;
+                                        width:18px;
+                                        height: 18px;
+                                        line-height: 18px;
+                                        margin-left: 30px;
+                                        margin-right: 20px;
+                                        font-size: 16px;
+                                        text-align: center;
+                                        color: #fff;
+                                        background-color: #ff6700;
+                                    }
+                                }
+                                .list-2{
+                                    width: 120px;
+                                    img{
+                                        width: 80px;
+                                        height: 80px;
+                                    }
+                                }
+                                .list-3{
+                                    width: 380px;
+                                    line-height: 70px;
+                                }
+                                .list-4{
+                                    width: 140px;
+                                    line-height: 70px;
+                                    text-align: center;
+                                }
+                                .list-5{
+                                    width: 150px;
+                                    text-align: center;
+                                    padding: 20px 0 30px;
+                                    .btn{
+                                        width: 148px;
+                                        height: 38px;
+                                        border: 1px solid #e0e0e0;
+                                        a{
+                                            display: block;
+                                            float: left;
+                                            width: 38px;
+                                            height: 38px;
+                                            font-size: 20px;
+                                            line-height: 38px;
+                                            transition: all .5s;
+                                            &:hover{
+                                                background-color: #b0b0b0;
+                                            }
+                                        }   
+                                        input{
+                                            float: left;
+                                            width: 70px;
+                                            height: 36px;
+                                            border: none;
+                                            line-height: 38px;
+                                            padding: 0;
+                                            border-width: 0;
+                                            color: #424242;
+                                            font-size: 16px;
+                                            text-align: center
+                                        }
+                                    }    
+                                }
+                                .list-6{
+                                    width: 120px;
+                                    text-align: right;
+                                    line-height: 70px;
+                                    p{
+                                        color: #ff6700;
+                                    }
+                                }
+                                .list-7{
+                                    width: 80px;
+                                    margin-left: 74px;
+                                    position: relative;
+                                    a{
+                                        display: inline-block;
+                                        width: 24px;
+                                        height: 24px;
+                                        text-align: center;
+                                        border-radius:50%;
+                                        position: absolute;
+                                        top: 24px;
+                                        right: 0px;
+                                        line-height: 26px;
+                                        font-size: 14px;
+                                        &:hover{
+                                            color: #fff;
+                                            background-color: #e53959;
+                                        } 
+                                    }
+                                }
+                            } 
+                            .extend{
+                                width: 1100px;
+                                height: 65px;
+                            }
+                        }
+                    
+                }
+                .page-buy{
+                    width: 1226px;
+                    height: 50px;
+                    margin-top: 30px;
+                    background-color: #fafafa;
+                    position: sticky;
+                    bottom: 0px;
+                    right: 0px;
+                    left: 0px;
+                    box-shadow: 5px 5px 5px #f9f9f9;
+                    .left{
+                        width: 285px;
+                        float: left;
+                        line-height: 50px;
+                        font-size: 14px;
+                        // text-align: center;
+                        a{
+                            color: #757575;
+                            margin-left: 20px;
+                        }
+                            .xian{
+                                color: #f9f9f9;
+                                margin-left: 16px;
+                                margin-right: 16px
+                        }
+                        span{
+                            color: #757575;
+                            i{
+                                font-style: normal;
+                                color: red;
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                    .right{
+                        width: 400px;
+                        float: right;
+                        
+                        .right-1{
+                            width: 200px;
+                            color: #ff6700;
+                            float: left;
+                            span{
+                                font-size: 30px
+                            }
+                        }
+                        .right-2{
+                            width: 200px;
+                            line-height: 50px;
+                            float: right;
+                            background-color: #ff6700;
+                            color: #fff;
+                            font-size: 18px;
+                            text-align: center
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@import url(./footer.less);

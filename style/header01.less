@@ -1,0 +1,311 @@
+@charset 'utf-8';
+h1,h2,h3,h4,h5,h6,li,ul,p,html,body{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    height:140px;
+    background-color: #333;
+    border-bottom: 1px solid #b0b0b0;
+    .header-1 {
+        width: 1226px;
+        height: 40px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 39px;
+        .header-left {
+            li {
+                float: left;
+                position: relative;
+                a{
+                    display: block;
+                    height: 40px;
+                    cursor: pointer;
+                    color: #babbb5;
+                    span{
+                        margin: 0 5px;
+                        color: #3e3f3a;
+                    }
+                }
+                
+            }
+        }
+        .header-right {
+            li {
+                float: right;
+                text-align: center;
+                padding-left:5px;
+                a{
+                    // display: block;
+                    // height: 40px;
+                    cursor: pointer;
+                    color: #b0b0b0;
+                    span{
+                        margin: 0 5px;
+                        color: #3e3f3a;
+                    }
+                }
+            }
+            .che{
+                    width: 110px;
+                    height: 40px;
+                    background-color: #444;
+                    position: relative;
+                    cursor: pointer;
+                    span{
+                        color: #b0b0b0;
+                        padding-right:5px;
+                        font-size: 19px;
+                    }
+                    .che-pro{
+                        width: 316px;
+                        position: absolute;
+                        top: 40px;
+                        right: 0px;
+                        padding-top: 20px;
+                        background-color: #fff;
+                        display: none;
+                        z-index: 10;
+                        box-shadow: 1px 1px 1px #b0b0b0;
+                        .che-2{
+                            margin: 0 20px 20px;
+                            padding: 20px 0;
+                            width: 276px;
+                        }
+                    }
+                }
+        }
+        li:hover a{
+            color: #fff;
+        }
+        .che:hover{
+            background-color: #fff;
+        }
+        .che:hover span{
+            color: #ff6700;
+        } 
+        .che:hover a{
+            color: #ff6700;
+        }
+        .che:hover .che-pro{
+            display: block;
+        }
+    }
+    .header-footer{
+        background-color: #fff;
+        position: relative;
+        .header-2{
+            width: 1226px;
+            height: 100px;
+            margin: 0 auto;
+            color: #333;
+            .logo{
+                width: 55px;
+                height: 55px;
+                float: left;
+                margin-top: 22px;
+                margin-right: 53px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .header-nav{
+                line-height: 100px;
+                font-size: 16px;
+                float: left;
+                li{
+                    float: left;
+                    padding: 0 10px;
+                    span{
+                        cursor: pointer; 
+                    }
+                    .header-dd{
+                        width: 100%;
+                        // height: 230px;
+                        transition: all 1s;
+                        background-color: #fff;
+                        position: absolute;
+                        bottom: -231px;
+                        left: 0px;
+                        display: none;
+                        z-index: 10;
+                        // border-top: 1px solid #3e3f3a;
+                        .header-d{
+                            width: 1226px;
+                            margin: 0 auto;
+                            box-shadow: 2px #3e3f3a;
+                            li{
+                                float: left;
+                                width: 175px;
+                                padding: 35px 12px 0;
+                                text-align: center;
+                                
+                                .li-img{
+                                    width: 160px;
+                                    height: 110px;
+                                    margin: 0 auto 16px;
+                                    text-align: center;
+                                    border-right: 1px solid #3e3f3a;
+                                    img{
+                                        width: 160px;
+                                        height: 110px;
+                                    }
+                                }
+                                .title{
+                                    line-height: 20px;
+                                    color: #333;
+                                    font-size: 12px;
+                                }
+                                .p1{
+                                    line-height: 20px;
+                                    color: #ff6700;
+                                    font-size: 12px;
+                                }
+                            }
+                            .li-:nth-last-child(1) div{
+                                border: none;
+                            }
+                        }
+                    }
+                    
+                }
+                li>span:hover {
+                    color: coral;
+                }
+                li:hover .header-dd{
+                    display: block;
+                    height: 230px;
+                }
+                .li-nav-1{
+                    .banner-left{
+                        width: 235px;           
+                        height: 400px;
+                        position: absolute;
+                        top: 100px;
+                        left: 140px;
+                        border: 1px solid red;
+                        background-color: #fff;
+                        padding: 30px 0;
+                        display: none;
+                        box-shadow: 2px 2px 2px #b0b0b0;
+                        z-index: 11;
+                        .li-nav{
+                            width: 195px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: left;
+                            padding-left: 30px;
+                            padding-right: 10px;
+                            a{
+                                color: black;
+                            }
+                            .biao{
+                                display: block;
+                                width: 10px;
+                                height: 15px;
+                                float: right;
+                                margin-top: 10px;
+                                background: url(../images/xiaomi_08.png) no-repeat -5px 0;
+                            }
+                            .pro{
+                                // width: 992px;
+                                position: absolute;
+                                top: 0;
+                                left: 236px;
+                                background-color: #fff;
+                                z-index: 10;
+                                display: none;
+                                ul{
+                                    float: left;
+                                    width: 248px;
+                                    li{
+                                        float: left;
+                                        width: 265px;
+                                        height: 76px;
+                                        
+                                        a{
+                                            display: block;
+                                            display: flex;
+                                            padding: 18px 20px;
+                                            color: black;
+                                            line-height: 40px;
+                                            
+                                            img{
+                                                width: 40px;
+                                                height: 40px;
+                                                margin-right: 12px;
+                                            }
+                                            .text{
+                                                display: block;
+                                                float: left;
+                                                width: 172px;
+                                                height: 40px;
+                                                line-height: 40px;
+                                                font-size: 14px;
+                                            }
+                                            .text:hover{
+                                                color: #ff6700;
+                                            }
+                                        }
+                                }
+                                    
+                                        
+                                    }
+                                }
+                            }
+                            .li-nav:hover .pro{
+                                display: block;
+                            }
+                            .pro-1,.pro-2,.pro-4{
+                                width: 992px;
+                            }
+                            .pro-3,.pro-5,.pro-6,.pro-8,.pro-9,.pro-10{
+                                width: 795px;
+                            }
+                            .pro-7{
+                                width: 530px;
+                            }
+                            
+                    }
+                    .li-nav:hover{
+                        background-color: orangered;
+                    }
+                }
+                .li-nav-1:hover .banner-left{
+                    display: block;
+                }
+            }
+            .submit{
+                width: 50px;
+                height: 52px;
+                border: 1px solid #dfdfdf;
+                float: right;
+                margin-top: 25px;
+            }
+            .submit:hover{
+                cursor: pointer;
+                background-color: coral;
+                border: 1px solid coral;
+                color: #fff;
+            }
+            .search{
+                width: 243px;
+                height: 48px;
+                margin-top: 25px;
+                border: 1px solid #dfdfdf;
+                float: right;
+                padding-left: 5px;
+            }
+           
+            
+        }
+    }
+
+}
